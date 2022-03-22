@@ -14,12 +14,26 @@
   <body>
     <div class="form-container">
       <form class="form form--add">
-        
+        <h2 class="form__title">Dodaj element do DOM</h2>
+        <input type="text" class="form__input" placeholder="element HTML" />
+        <input
+          type="text"
+          class="form__input"
+          placeholder="tekst w elemencie HTML"
+        />
+        <input type="text" class="form__input" placeholder="atrybut" />
+        <input type="text" class="form__input" placeholder="wartość atrybutu" />
+        <button class="form__button" type="submit">Dodaj element</button>
       </form>
-      <form class="form form--search"></form>
+      <form class="form form--search">
+        <h2 class="form__title">Przeszukaj DOM</h2>
+        <input type="text" class="form__input" placeholder="szukana nazwa elementu" />
+        <button class="form__button" type="submit">Znajdź i pokaż informacje</button>
+      </form>
     </div>
-    <div class="result"></div>
-    <footer></footer>
+    <div class="search-field"></div>
+    <div class="result-field"></div>
+    <footer>Stopka</footer>
 
     <script src="js/script.js"></script>
   </body>
