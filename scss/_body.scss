@@ -1,10 +1,54 @@
-//*Ten plik nie jest kompilowany (_nazwa), a jest dołączony poprzez @import
-
-body {
-  font-family: "Roboto", sans-serif;
+.form-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: space-evenly;
+
+  .form {
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $secondary-color;
+    box-shadow: 0 0 5px 1px rgb(131, 131, 131);
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 30px;
+    margin: 10px;
+    justify-content: center;
+    align-content: space-between;
+
+    .form__title {
+      flex-basis: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .form__input {
+      font-size: 1rem;
+      flex-basis: 40%;
+      padding: 10px;
+    }
+
+    .form__button {
+      flex-basis: 60%;
+      background-color: white;
+      text-transform: uppercase;
+      height: 40px;
+      border: 2px solid black;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.footer {
+  padding: 30px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.search-field,
+.result-field,
+.footer {
+  margin: 10px auto;
+  max-width: 1200px;
 }

@@ -15,7 +15,12 @@
     <div class="form-container">
       <form class="form form--add">
         <h2 class="form__title">Dodaj element do DOM</h2>
-        <input type="text" class="form__input" placeholder="element HTML" />
+        <input
+          type="text"
+          class="form__input"
+          placeholder="element HTML"
+          required
+        />
         <input
           type="text"
           class="form__input"
@@ -27,13 +32,20 @@
       </form>
       <form class="form form--search">
         <h2 class="form__title">Przeszukaj DOM</h2>
-        <input type="text" class="form__input" placeholder="szukana nazwa elementu" />
-        <button class="form__button" type="submit">Znajdź i pokaż informacje</button>
+        <input
+          type="text"
+          class="form__input"
+          placeholder="szukana nazwa elementu"
+          required
+        />
+        <button class="form__button" type="submit">
+          Znajdź i pokaż informacje
+        </button>
       </form>
     </div>
     <div class="search-field"></div>
     <div class="result-field"></div>
-    <footer>Stopka</footer>
+    <footer class="footer">Stopka</footer>
 
     <script src="js/script.js"></script>
   </body>
