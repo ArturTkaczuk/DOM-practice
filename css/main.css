@@ -77,4 +77,14 @@
   margin: 10px auto;
   max-width: 1200px;
 }
+
+.result-field {
+  padding: 0 10px;
+}
+
+.result-field > * {
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 5px 1px #7a7a7a;
+          box-shadow: 0 0 5px 1px #7a7a7a;
+}
 /*# sourceMappingURL=main.css.map */
