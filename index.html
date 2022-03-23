@@ -12,62 +12,67 @@
     <title>My project</title>
   </head>
   <body>
-    <div class="form-container">
-      <form class="form form--add">
-        <h2 class="form__title">Dodaj element do DOM</h2>
-        <input
-          name="elementName"
-          type="text"
-          class="form__input"
-          placeholder="element HTML"
-          required
-        />
-        <input
-          name="elementText"
-          type="text"
-          class="form__input"
-          placeholder="tekst w elemencie HTML"
-        />
-        <input
-          name="elementAttribute"
-          type="text"
-          class="form__input"
-          placeholder="atrybut"
-        />
-        <input
-          name="elementAttributeValue"
-          type="text"
-          class="form__input"
-          placeholder="wartość atrybutu"
-        />
-        <button class="form__button form__button--add" type="submit">
-          Dodaj element
-        </button>
-      </form>
-      <form class="form form--search">
-        <h2 class="form__title">Przeszukaj DOM</h2>
-        <input
-          name="searchQuery"
-          type="text"
-          class="form__input"
-          placeholder="szukana nazwa elementu"
-          required
-        />
-        <button class="form__button form__button--search" type="submit">
-          Znajdź i pokaż informacje
-        </button>
-      </form>
+    <div class="wrapper">
+      <div class="form-container">
+        <form class="form form--add">
+          <h2 class="form__title">Dodaj element do DOM</h2>
+          <input
+            name="elementName"
+            type="text"
+            class="form__input"
+            placeholder="element HTML"
+            required
+          />
+          <input
+            name="elementText"
+            type="text"
+            class="form__input"
+            placeholder="tekst w elemencie HTML"
+          />
+          <input
+            name="elementAttribute"
+            type="text"
+            class="form__input"
+            placeholder="atrybut"
+          />
+          <input
+            name="elementAttributeValue"
+            type="text"
+            class="form__input"
+            placeholder="wartość atrybutu"
+          />
+          <button class="form__button form__button--add" type="submit">
+            Dodaj element
+          </button>
+        </form>
+        <form class="form form--search">
+          <h2 class="form__title">Przeszukaj DOM</h2>
+          <input
+            name="searchQuery"
+            type="text"
+            class="form__input"
+            placeholder="szukana nazwa elementu"
+            required
+          />
+          <button class="form__button form__button--search" type="submit">
+            Znajdź i pokaż informacje
+          </button>
+        </form>
+      </div>
+      <div class="search-data">
+        <p>DIV</p>
+        <p>klasy: klasa1 klasa2</p>
+        <p>Wysokość elementu (offsetHeight): 120</p>
+        <p>Szerokość elementu (offsetWidth): 345</p>
+        <p>Odległość od lewej krawędzi (offsetLeft): 10</p>
+        <p>Odległość od prawej krawędzi (offsetRight): 10</p>
+        <p>Liczba elementów dzieci (childElementCount): 3</p>
+      </div>
+      <div class="nodes"></div>
+      <footer class="footer">Stopka</footer>
     </div>
-    <div class="search-field"></div>
-    <div class="nodes">
-      <h1>Content</h1>
-      <h1>Content</h1>
-      <h1>Content</h1>
-      <h1>Content</h1>
-      <p>some content</p>
-    </div>
-    <footer class="footer">Stopka</footer>
 
     <script src="js/addElement.js"></script>
+    <script src="js/searchDOM.js"></script>
   </body>
 </html>

@@ -1,3 +1,7 @@
+.wrapper {
+  margin: 10px;
+}
+
 .form-container {
   display: flex;
   justify-content: space-evenly;
@@ -46,7 +50,7 @@
   text-align: center;
 }
 
-.search-field,
+.search-data,
 .nodes,
 .footer {
   margin: 10px auto;
