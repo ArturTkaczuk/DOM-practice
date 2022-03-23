@@ -47,17 +47,13 @@
 }
 
 .search-field,
-.result-field,
+.nodes,
 .footer {
   margin: 10px auto;
   max-width: 1200px;
 }
 
-.result-field {
+.nodes {
   padding: 0 10px;
-
-  & > * {
-    margin-bottom: 10px;
-    box-shadow: 0 0 5px 1px rgb(122, 122, 122);
-  }
+  box-shadow: 0 0 5px 1px rgb(122, 122, 122);
 }
