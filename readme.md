@@ -1,7 +1,10 @@
 # DOM practice
 
-Użyte technologie:
+App to practice DOM manipulation in JS
 
-- ESlint/ prettier
+##Technologies used:
+
+- ESlint & prettier
 - SCSS
-- BEM
+- HTML
+- BEM architecture
