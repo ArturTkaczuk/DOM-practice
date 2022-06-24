@@ -2,7 +2,7 @@
 
 App to practice DOM manipulation in JS
 
-##Technologies used:
+## Technologies used:
 
 - ESlint & prettier
 - SCSS
